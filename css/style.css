@@ -2,9 +2,9 @@
       margin: auto; 
       text-align: center;
     }
+    
 	  .contact-table {
-      text-align: left; 
-      margin-left:2rem;
+      text-align: left;
     }
     
 	  .navbar {
@@ -32,19 +32,34 @@
     .map {
       max-width: 95%; 
       margin-left:auto; 
-      margin-right:auto
+      margin-right:auto;
+    }
+    
+    .calendar {
+      background-color: #CFD8DC;
+      width: 90%;
+      margin:5%;
+    }
+    
+    .calendar_outer{
+      background-color: #EEEEEE
     }
 	  
 	  .navbar_opt:hover {
       background-color: #CFD8DC
     }
-      
+    
+    
+    
+    #impressum {
+      text-align: center;
+    }
     #logo {
       min-width: 200px; 
       max-width: 25%; 
       display: block; 
       margin-left:auto; 
-      margin-right:auto
+      margin-right:auto;
     }
     #hausost {
       max-width: 100%; 
@@ -53,8 +68,10 @@
       margin-right:auto;
     }
 	  #imp {
-      align: center; 
-      padding: 5px 5px 5px 5px;
+      text-align: center; 
+      margin-left:auto; 
+      margin-right:auto;
+      width: 90%;
     }
 	  
 	  a {
