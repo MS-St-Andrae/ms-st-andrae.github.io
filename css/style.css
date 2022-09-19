@@ -1,0 +1,16 @@
+    .center {margin: auto; text-align: center}
+	  .contact {text-align: left; margin-left:2rem}
+    .tipp {color: #000000; font-weight: bold}
+	  .navbar_opt {margin: 10px; padding: 5pt 5pt 5pt 5pt; background-color: #EEEEEE; line-height: 2}
+	  .navbar {background-color: #F5F5F5; color: black; size: 14pt}
+	  .mapouter {padding: 5pt; background-color: #EEEEEE}
+	  
+	  .navbar_opt:hover {background-color: #FAFAFA}
+      
+    #logo {min-width: 200px; max-width: 25%; display: block; margin-left:auto; margin-right:auto}
+    #hausost {max-width: 100%; display: block; margin-left:auto; margin-right:auto}
+	  #imp {align: center; padding: 3pt 3pt 3pt 3pt}
+	  
+	  
+	  h3 {font-size: 14}
+	  a {text-decoration: none; color: black}
