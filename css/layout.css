@@ -43,7 +43,7 @@
           grid-template-rows: auto;
           grid-column-gap: 10px;
           grid-row-gap: 10px;
-          grid-template-areas: "navbar_opt navbar_opt navbar_opt navbar_opt navbar_opt navbar_opt navbar_opt navbar_opt";
+          grid-template-areas: "navbar_opt navbar_opt navbar_opt navbar_opt navbar_opt navbar_opt navbar_opt";
         }
       }
       .header {
