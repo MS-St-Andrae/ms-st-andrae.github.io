@@ -15,7 +15,7 @@
         grid-column-gap: 50px;
         grid-template-areas: "header"
                              "main1"
-                             "contact"
+                             "main2"
                              "corona"
                              "main3"
                              "full"
@@ -33,7 +33,7 @@
           grid-column-gap: 10px;
           grid-row-gap: 10px;
           grid-template-areas: "header header"
-                               "main1 contact"
+                               "main1 main2"
                                "corona main3"
                                "full full"
                                "footer footer";
@@ -61,10 +61,10 @@
         padding: 1rem;
         grid-area: main1;
       }
-      .contact {
+      .main2 {
         margin: 1rem;
         padding: 1rem;
-        grid-area: contact;
+        grid-area: main2;
         background-color: #CFD8DC;
       }
       .corona {
