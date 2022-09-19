@@ -3,7 +3,7 @@
     .tipp {color: #000000; font-weight: bold}
 	  .navbar_opt {margin: 10px; padding: 5pt 5pt 5pt 5pt; background-color: #EEEEEE; line-height: 2}
 	  .navbar {background-color: #F5F5F5; color: black; size: 14pt}
-	  .mapouter {padding: 5pt; background-color: #EEEEEE}
+	  .mapouter {padding: 5pt; background-color: #EEEEEE; max-width: 80%;}
 	  
 	  .navbar_opt:hover {background-color: #FAFAFA}
       
