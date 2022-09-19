@@ -5,7 +5,7 @@
 	
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-	<meta charset="UTF-8">
+	  <meta charset="UTF-8">
 	
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
@@ -16,47 +16,34 @@
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/dropdown.css">
     <link rel="stylesheet" href="css/style.css">
+    
   </head>
 
   <body>
+  
   <div class="container">
+  
     <div class="header">
-	  <img alt="MS St. Andrä Logo" src="logo/ms_sta_logo.svg" id="logo">
-	  
-	  <div class="navbar">
-	  <hr>
-	  <span class="navbar_opt">
-	  <div class="dropdown">
-        Unsere Schule
-		<div class="dropdown-content">
-		  <a href="ueber_uns.html">Über uns</a>
-		  <a href="team.html">Schulteam</a>
-		  <a href="schueler.html">SchülerInnen</a>
-		  <a href="galerie.html">Galerie</a>
-		</div>
-	  </div>
-	  </span>
-	  <span class="navbar_opt">
-        <a href="anmeldung.html">Anmeldung</a>
-	  </span>
-	  <span class="navbar_opt">
-        <a href="beratung.html">Beratung</a>
-	  </span>
-	  <span class="navbar_opt">
-        <a href="termine.html">Termine</a>
-	  </span>
-	  <span class="navbar_opt">
-        <a href="projekte.html">Projekte</a>
-	  </span>
-	  <span class="navbar_opt">
-        <a href="betreuung.html">Tagesbetreuung</a>
-	  </span>
-	  <span class="navbar_opt">
-        <a href="muttersprachen.html">Muttersprachen</a>
-	  </span>
-      <hr>
-	  </div>
+      <a href="index.html"><img alt="MS St. Andrä Logo" src="logo/ms_sta_logo.svg" id="logo"></a>
+      <div class="navbar">
+        <div class="navbar_opt dropdown">
+          Unsere Schule
+          <div class="dropdown-content">
+            <a class="drop_opt" href="ueber_uns.html">Die Schule</a>
+            <a class="drop_opt" href="team.html">Schulteam</a>
+            <a class="drop_opt" href="schueler.html">SchülerInnen</a>
+            <a class="drop_opt" href="galerie.html">Galerie</a>
+          </div>
+        </div>
+        <a href="anmeldung.html"><div class="navbar_opt">Anmeldung</div></a>
+        <a href="beratung.html"><div class="navbar_opt">Beratung</div></a>
+        <a href="termine.html"><div class="navbar_opt">Termine</div></a>
+        <a href="projekte.html"><div class="navbar_opt">Projekte</div></a>
+        <a href="betreuung.html"><div class="navbar_opt">Tagesbetreuung</div></a>
+        <a href="muttersprachen.html"><div class="navbar_opt">Muttersprachen</div></a>
+      </div>
     </div>
+    
     <div class="main1">
 	  <h1>Mittelschule St. Andrä</h1>
       <img alt="MS St. Andrä Außenansicht" src="pictures/hausost.jpg" id="hausost">
@@ -66,19 +53,21 @@
     </div>
     
     
-    <div class="main2">
+    <div class="contact">
       <h2>Kontakt</h2>
-	  <table class="contact">
-        <tr><td>&#9742 Direktion</td>   <td>0316 8726905</td></tr>
-        <tr><td>&#9742 LehrerInnen</td>   <td>0316 8726907</td></tr>
-        <tr><td>&#9742 Schulwart</td>   <td>0316 8726904</td></tr>
-		<tr><td> </td>   <td></td></tr>
-		<tr><td>&#128224 Fax</td>   <td>0316 872 6906</td></tr>
-	  <tr><td>&#128231 Email  </td><td> <a href="ms.st.andrae@ms-st-andrae.edu.graz.at">ms.st.andrae@ms-st-andrae.edu.graz.at</a> <td></td></tr>
-    <tr><td>&#128205 Adresse </td>  <td>Kernstockgasse 1, 8020 Graz</td></tr>
-	  </table>
-	  <div class="mapouter"><div class="gmap_canvas"><iframe width="500" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=kernstockgasse%201&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org">123movies</a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:500px;}</style><a href="https://www.embedgooglemap.net">embed google map on website</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:500px;}</style></div></div>
-
+      <table class="contact-table">
+        <tr><td>Direktion</td>   <td>&#9742 0316 8726905</td></tr>
+        <tr><td>LehrerInnen</td>   <td>&#9742 0316 8726907</td></tr>
+        <tr><td>Schulwart</td>   <td>&#9742 0316 8726904</td></tr>
+        <tr><td> </td>   <td></td></tr>
+        <tr><td>Fax</td>   <td>&#128224 0316 872 6906</td></tr>
+        <tr><td>Email  </td><td> &#128231 <a href="ms.st.andrae@ms-st-andrae.edu.graz.at">ms.st.andrae@ms-st-andrae.edu.graz.at</a> <td></td></tr>
+        <tr><td>Adresse </td>  <td>&#128205 Kernstockgasse 1, 8020 Graz</td></tr>
+      </table>
+      <div class="mapouter">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2717.505315863225!2d15.431181200000001!3d47.0695535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476e35777cba8ff3%3A0xa846134783ed788b!2sKernstockgasse%201%2C%208020%20Graz!5e0!3m2!1sde!2sat!4v1663599489157!5m2!1sde!2sat" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      
     </div>
     
     <div class="main3">
@@ -98,6 +87,7 @@
       <hr>
     </div>
   </div>
+  
   </body>
 
 </html>

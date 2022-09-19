@@ -1,16 +1,63 @@
-    .center {margin: auto; text-align: center}
-	  .contact {text-align: left; margin-left:2rem}
-    .tipp {color: #000000; font-weight: bold}
-	  .navbar_opt {margin: 10px; padding: 5pt 5pt 5pt 5pt; background-color: #EEEEEE; line-height: 2}
-	  .navbar {background-color: #F5F5F5; color: black; size: 14pt}
-	  .mapouter {padding: 5pt; background-color: #EEEEEE; max-width: 80%;}
+    .center {
+      margin: auto; 
+      text-align: center;
+    }
+	  .contact-table {
+      text-align: left; 
+      margin-left:2rem;
+    }
+    
+	  .navbar {
+      padding: 0px 0px 0px; 
+      background-color: #90A4AE; 
+      color: black; 
+      font-size: 14pt;
+      font-weight: bold;
+      margin: 10px
+    }
+	  .navbar_opt {
+      padding: 10px 10px 10px;
+      background-color: #90A4AE;
+      color: black; 
+      width: 100%;
+      margin: auto;
+      text-align: center;
+    }
+    
+	  .mapouter {
+      margin-top: 2rem;
+      padding: 5px 5px 5px 5px;
+      background-color: #EEEEEE;
+    }
+    .map {
+      max-width: 95%; 
+      margin-left:auto; 
+      margin-right:auto
+    }
 	  
-	  .navbar_opt:hover {background-color: #FAFAFA}
+	  .navbar_opt:hover {
+      background-color: #CFD8DC
+    }
       
-    #logo {min-width: 200px; max-width: 25%; display: block; margin-left:auto; margin-right:auto}
-    #hausost {max-width: 100%; display: block; margin-left:auto; margin-right:auto}
-	  #imp {align: center; padding: 3pt 3pt 3pt 3pt}
+    #logo {
+      min-width: 200px; 
+      max-width: 25%; 
+      display: block; 
+      margin-left:auto; 
+      margin-right:auto
+    }
+    #hausost {
+      max-width: 100%; 
+      display: block; 
+      margin-left:auto; 
+      margin-right:auto;
+    }
+	  #imp {
+      align: center; 
+      padding: 5px 5px 5px 5px;
+    }
 	  
-	  
-	  h3 {font-size: 14}
-	  a {text-decoration: none; color: black}
+	  a {
+      text-decoration: none; 
+      color: black;
+    }
