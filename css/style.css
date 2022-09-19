@@ -8,6 +8,7 @@
     }
     
 	  .navbar {
+      list-style-type: none;
       padding: 0px 0px 0px; 
       background-color: #90A4AE; 
       color: black; 
@@ -32,6 +33,14 @@
     .map {
       width: 100%;
       min-height: 500px;
+      margin-left:auto; 
+      margin-right:auto;
+    }
+    
+    .header.imp {
+      width:100%;
+      min-height:500px;
+      height:20%;
       margin-left:auto; 
       margin-right:auto;
     }
@@ -81,9 +90,10 @@
       width: 15rem;
     }
 	  #imp {
+      background-color: #CFD8DC;
       text-align: center; 
-      margin-left:auto; 
-      margin-right:auto;
+      margin-left: auto; 
+      margin-right: auto;
       width: 90%;
     }
 	  
@@ -91,9 +101,6 @@
       text-decoration: none; 
       color: black;
     }
-    
-    
-    
     
     
     @media (min-width: 65rem) {

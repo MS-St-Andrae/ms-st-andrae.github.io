@@ -18,7 +18,7 @@
                              "contact"
                              "corona"
                              "main3"
-                             "tips"
+                             "full"
                              "footer";
       }
       @media (min-width: 65rem) { 
@@ -35,7 +35,7 @@
           grid-template-areas: "header header"
                                "main1 contact"
                                "corona main3"
-                               "tips tips"
+                               "full full"
                                "footer footer";
         }
         .navbar {
@@ -77,8 +77,8 @@
         padding: 1rem;
         grid-area: main3;
       }
-      .tips {
+      .full {
         margin: 1rem;
         padding: 1rem;
-        grid-area: tips;
+        grid-area: full;
       }
