@@ -14,6 +14,7 @@
       color: black; 
       font-size: 2rem;
       font-weight: bold;
+      width: 100%;
       margin: 0px
     }
 	  .navbar_opt {
@@ -65,6 +66,10 @@
     
     
     .corona {
+      background-color: #CFD8DC;
+    }
+    
+    .full {
       background-color: #CFD8DC;
     }
     
