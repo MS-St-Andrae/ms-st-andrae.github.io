@@ -1,0 +1,25 @@
+@import "colors.css";
+
+
+	  .navbar {
+      list-style-type: none;
+      padding: 0; 
+      background-color: var(--bt-color); 
+      font-size: 2rem;
+      font-weight: bold;
+      color: white;
+      width: 100%;
+      margin:auto;
+    }
+	  .navbar_opt {
+      padding: 10px 0px 10px;
+      color: white;
+      width: 100%;
+      margin: auto;
+      text-align: center;
+    }
+    
+    @media (min-width: 65rem) {
+      .navbar {
+        font-size: 1.1rem;
+      }

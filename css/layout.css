@@ -1,11 +1,26 @@
-      body {background-color: #C8E6C9; color: black;
-            font-family: Arial, sans-serif; margin-left:1rem; margin-right:1rem}
-      p {text-align:justify}
-      h1 {display: inline-block;}
+      @import "colors.css";
+      @import "navbar.css";
+      @import "dropdown.css";
+      
+      body {
+        background-color: var(--bd-color); 
+        color: black;
+        font-family: Arial, sans-serif; 
+        margin-left:1rem; 
+        margin-right:1rem;
+      }
+        
+      p {
+        text-align:justify;
+      }
 	  
-      table {width: 100%; text-align: center}
+      table {
+        width: 100%; 
+        text-align: center
+      }
+      
       .container {
-        background-color: #FFFFFF; 
+        background-color: var(--ct-color); 
         max-width: 1400px; 
         margin-left:auto;
         margin-right:auto;
@@ -32,44 +47,43 @@
         margin: 0.2rem;
         padding: 1rem;
         grid-area: footer;
-        background-color: #E8F5E9;
+        background-color: var(--div-color);
       }
       .main1 {
         margin: 0.2rem;
         padding: 1rem;
         grid-area: main1;
-        background-color: #E8F5E9;
+        background-color: var(--div-color);
       }
       .main2 {
         margin: 0.2rem;
         padding: 1rem;
         grid-area: main2;
-        background-color: #E8F5E9;
+        background-color: var(--div-color);
       }
       .corona {
         margin: 0.2rem;
         padding: 1rem;
         grid-area: corona;
-        background-color: #E8F5E9;
+        background-color: var(--div-color);
       }
       .main3 {
         margin: 0.2rem;
         padding: 1rem;
         grid-area: main3;
-        background-color: #E8F5E9;
+        background-color: var(--div-color);
       }
       .full {
         margin: 0.2rem;
         padding: 1rem;
         grid-area: full;
-        background-color: #E8F5E9;
+        background-color: var(--div-color);
       }
       
       
       
       @media (min-width: 65rem) { 
         .container {
-          background-color: #FFFFFF; 
           max-width: 1400px; 
           margin-left:auto;
           margin-right:auto;

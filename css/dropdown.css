@@ -1,3 +1,5 @@
+    @import "colors.css";
+    
     .dropdown {
       position: relative;
       display: inline-block;
@@ -5,17 +7,23 @@
     .dropdown:hover .dropdown-content {
       display: block;
     }
+    
 	  .dropdown-content {
-      margin-top: 5px;
       display: none;
-      position: absolute;
-      background-color: #66BB6A;
-      min-width: 160px;
-      width: 100%;
-      border: 1px solid #BFBFBF;
-      box-shadow: 5px 5px 5px #888888;
+      margin:auto;
+      margin-top: 10px;
+      position: relative;
+      background-color: var(--bt-color);
+      width: 98%;
       z-index: 1;
     }
+    
+    @media (min-width: 65rem) {
+      .dropdown-content {
+        position: absolute;
+      }
+    }
+    
     .dropdown-content a{
       display: block;
       padding: 10px 0px 10px;
@@ -27,5 +35,5 @@
       height: 100%;
     }
     .drop_opt:hover {
-      background-color: #A5D6A7;
+      background-color: var(--bt-h-color);
     }
