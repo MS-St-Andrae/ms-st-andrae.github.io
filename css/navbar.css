@@ -19,7 +19,9 @@
       text-align: center;
     }
     
+    
     @media (min-width: 65rem) {
       .navbar {
         font-size: 1.1rem;
       }
+    }

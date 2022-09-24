@@ -37,13 +37,13 @@
     }
     
     .calendar {
-      background-color: #CFD8DC;
+      background-color: var(--div-color);
       width: 90%;
       margin:5%;
     }
     
     .download {
-      background-color: #1565C0;
+      background-color: var(--bt-color);
       border: none;
       color: white;
       align: center;
@@ -74,6 +74,7 @@
     #impressum {
       text-align: center;
     }
+    
     #logo {
       min-width: 4rem;
       max-width: 60%;
@@ -81,15 +82,18 @@
       margin-left:auto; 
       margin-right:auto;
     }
+    
     #hausost {
       max-width: 100%; 
       display: block; 
       margin-left:auto; 
       margin-right:auto;
     }
+    
     #eingang {
       width: 15rem;
     }
+    
 	  #imp {
       background-color: #A5D6A7;
       text-align: center; 
