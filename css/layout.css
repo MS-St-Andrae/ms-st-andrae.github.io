@@ -6,17 +6,10 @@
         background-color: var(--bd-color); 
         color: black;
         font-family: Arial, sans-serif; 
-        margin-left:1rem; 
-        margin-right:1rem;
       }
         
       p {
         text-align:justify;
-      }
-	  
-      table {
-        width: 100%; 
-        text-align: center
       }
       
       .container {
@@ -27,7 +20,7 @@
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: auto;
-        grid-column-gap: 10px;
+        grid-column-gap: 0px;
         grid-template-areas: "header"
                              "main1"
                              "main2"
@@ -106,6 +99,7 @@
         }
         .header {
           margin: 1rem;
+          padding: 1rem;
           grid-area: header;
         }
         .footer { 
