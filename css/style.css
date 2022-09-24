@@ -9,13 +9,13 @@
     
 	  .navbar {
       list-style-type: none;
-      padding: 0px 0px 0px; 
+      padding: 0; 
       background-color: #90A4AE; 
       color: black; 
       font-size: 2rem;
       font-weight: bold;
       width: 100%;
-      margin: 0px
+      margin:auto;
     }
 	  .navbar_opt {
       padding: 10px 0px 10px;
@@ -50,6 +50,23 @@
       background-color: #CFD8DC;
       width: 90%;
       margin:5%;
+    }
+    
+    .download {
+      background-color: #1565C0;
+      border: none;
+      color: white;
+      align: center;
+      padding: 1rem 2rem 1rem;
+      cursor: pointer;
+      display: inline-block;
+      margin: auto;
+      align: center;
+      font-size: 1.5rem;
+    }
+    
+    .download:hover {
+      background-color: #42A5F5;
     }
     
     .calendar_outer{
