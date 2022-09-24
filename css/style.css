@@ -1,3 +1,8 @@
+    a {
+      text-decoration: none; 
+      color: black;
+    }
+    
     .center {
       margin: auto; 
       text-align: center;
@@ -10,17 +15,16 @@
 	  .navbar {
       list-style-type: none;
       padding: 0; 
-      background-color: #90A4AE; 
-      color: black; 
+      background-color: #66BB6A; 
       font-size: 2rem;
       font-weight: bold;
+      color: white;
       width: 100%;
       margin:auto;
     }
 	  .navbar_opt {
       padding: 10px 0px 10px;
-      background-color: #90A4AE;
-      color: black; 
+      color: white;
       width: 100%;
       margin: auto;
       text-align: center;
@@ -73,22 +77,11 @@
       background-color: #EEEEEE
     }
     
-    .main1 {
-      background-color: #CFD8DC;
-    }
 	  
 	  .navbar_opt:hover {
-      background-color: #CFD8DC
+      background-color: #A5D6A7;
     }
-    
-    
-    .corona {
-      background-color: #CFD8DC;
-    }
-    
-    .full {
-      background-color: #CFD8DC;
-    }
+   
     
     
     
@@ -112,16 +105,11 @@
       width: 15rem;
     }
 	  #imp {
-      background-color: #CFD8DC;
+      background-color: #A5D6A7;
       text-align: center; 
       margin-left: auto; 
       margin-right: auto;
       width: 90%;
-    }
-	  
-	  a {
-      text-decoration: none; 
-      color: black;
     }
     
     

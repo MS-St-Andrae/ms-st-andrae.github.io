@@ -9,9 +9,9 @@
       margin-top: 5px;
       display: none;
       position: absolute;
-      background-color: #90A4AE;
+      background-color: #66BB6A;
       min-width: 160px;
-      width: 80%;
+      width: 100%;
       border: 1px solid #BFBFBF;
       box-shadow: 5px 5px 5px #888888;
       z-index: 1;
@@ -20,10 +20,12 @@
       display: block;
       padding: 10px 0px 10px;
     }
-	  .drop_opt: {
+	  .drop_opt {
       margin: 0;
-      text-align: center;
+      color: white;
+      width: 100%;
+      height: 100%;
     }
     .drop_opt:hover {
-      background-color: #CFD8DC;
+      background-color: #A5D6A7;
     }

@@ -1,4 +1,4 @@
-      body {background-color: #81D4FA; color: black;
+      body {background-color: #C8E6C9; color: black;
             font-family: Arial, sans-serif; margin-left:1rem; margin-right:1rem}
       p {text-align:justify}
       h1 {display: inline-block;}
@@ -32,32 +32,37 @@
         margin: 0.2rem;
         padding: 1rem;
         grid-area: footer;
+        background-color: #E8F5E9;
       }
       .main1 {
         margin: 0.2rem;
         padding: 1rem;
         grid-area: main1;
+        background-color: #E8F5E9;
       }
       .main2 {
         margin: 0.2rem;
         padding: 1rem;
         grid-area: main2;
-        background-color: #CFD8DC;
+        background-color: #E8F5E9;
       }
       .corona {
         margin: 0.2rem;
         padding: 1rem;
         grid-area: corona;
+        background-color: #E8F5E9;
       }
       .main3 {
         margin: 0.2rem;
         padding: 1rem;
         grid-area: main3;
+        background-color: #E8F5E9;
       }
       .full {
         margin: 0.2rem;
         padding: 1rem;
         grid-area: full;
+        background-color: #E8F5E9;
       }
       
       
@@ -105,7 +110,6 @@
           margin: 1rem;
           padding: 1rem;
           grid-area: main2;
-          background-color: #CFD8DC;
         }
         .corona {
           margin: 1rem;
