@@ -11,14 +11,18 @@
       width: 100%;
       margin:auto;
     }
+    
 	  .navbar_opt {
       padding: 10px 0px 10px;
-      color: white;
+      color: var(--bt-f-color);
       width: 100%;
       margin: auto;
       text-align: center;
     }
     
+	  .navbar_opt:hover {
+      background-color: var(--bt-h-color);
+    }
     
     @media (min-width: 65rem) {
       .navbar {

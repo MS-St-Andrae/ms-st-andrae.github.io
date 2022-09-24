@@ -31,8 +31,8 @@
         grid-template-areas: "header"
                              "main1"
                              "main2"
-                             "corona"
                              "main3"
+                             "main4"
                              "full"
                              "footer";
       }
@@ -60,16 +60,16 @@
         grid-area: main2;
         background-color: var(--div-color);
       }
-      .corona {
-        margin: 0.2rem;
-        padding: 1rem;
-        grid-area: corona;
-        background-color: var(--div-color);
-      }
       .main3 {
         margin: 0.2rem;
         padding: 1rem;
         grid-area: main3;
+        background-color: var(--div-color);
+      }
+      .main4 {
+        margin: 0.2rem;
+        padding: 1rem;
+        grid-area: main4;
         background-color: var(--div-color);
       }
       .full {
@@ -93,7 +93,7 @@
           grid-row-gap: 10px;
           grid-template-areas: "header header"
                                "main1 main2"
-                               "corona main3"
+                               "main3 main4"
                                "full full"
                                "footer footer";
         }
@@ -123,15 +123,15 @@
           padding: 1rem;
           grid-area: main2;
         }
-        .corona {
-          margin: 1rem;
-          padding: 1rem;
-          grid-area: corona;
-        }
         .main3 {
           margin: 1rem;
           padding: 1rem;
           grid-area: main3;
+        }
+        .main4 {
+          margin: 1rem;
+          padding: 1rem;
+          grid-area: main4;
         }
         .full {
           margin: 1rem;
