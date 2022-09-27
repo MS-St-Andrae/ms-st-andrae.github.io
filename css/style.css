@@ -10,6 +10,11 @@
       text-align: center;
     }
     
+    .link_1 {
+      color: var(--link-color);
+      text-decoration: underline;
+    }
+    
 	  .contact-table {
       text-align: left;
     }
@@ -51,7 +56,7 @@
       padding: 1rem 2rem 1rem;
       cursor: pointer;
       display: inline-block;
-      margin: auto;
+      margin: 1rem;
       align: center;
       font-size: 1.5rem;
     }
