@@ -121,6 +121,10 @@
       font-size: 1.5rem;
     }
     
+    #rge_logo {
+      width: 5rem;
+    }
+    
     
     @media (orientation: landscape) and (min-width: 800px), (min-width: 1000px) {
       #logo {
