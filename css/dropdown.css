@@ -19,7 +19,7 @@
       z-index: 1;
     }
     
-    @media (min-width: 65rem) {
+    @media (min-width: 1000px) {
       .dropdown-content {
         position: absolute;
       }

@@ -33,7 +33,7 @@
       margin-right:auto;
     }
     
-    .header.imp {
+    .header .imp {
       width:100%;
       min-height:500px;
       height:20%;
@@ -98,7 +98,7 @@
     }
     
     #eingang {
-      width: 15rem;
+      width: 80%;
     }
     
 	  #imp {
@@ -110,7 +110,7 @@
     }
     
     
-    @media (min-width: 65rem) {
+    @media (min-width: 1000px) {
       #logo {
         min-width: 10rem; 
         max-width: 25%; 

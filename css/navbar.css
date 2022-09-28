@@ -9,7 +9,7 @@
       font-weight: bold;
       color: white;
       width: 100%;
-      margin:auto;
+      margin: auto;
     }
     
 	  .navbar_opt {
@@ -24,8 +24,8 @@
       background-color: var(--bt-h-color);
     }
     
-    @media (min-width: 65rem) {
+    @media (min-width: 1000px) {
       .navbar {
-        font-size: 1.1rem;
+        font-size: 1.3rem;
       }
     }
