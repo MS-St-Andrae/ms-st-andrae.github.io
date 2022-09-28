@@ -10,6 +10,14 @@
       text-align: center;
     }
     
+    .teacher_name {
+      text-align: center;
+    }
+    
+    .teacher_fach {
+      text-align: center;
+    }
+    
     .link_1 {
       color: var(--link-color);
       text-decoration: underline;

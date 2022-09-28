@@ -28,6 +28,8 @@
                              "main3"
                              "main4"
                              "full"
+                             "full2"
+                             "full3"
                              "footer";
       }
       
@@ -72,6 +74,18 @@
         grid-area: full;
         background-color: var(--div-color);
       }
+      .full2 {
+        margin: 0.2rem;
+        padding: 1rem;
+        grid-area: full2;
+        background-color: var(--div-color);
+      }
+      .full3 {
+        margin: 0.2rem;
+        padding: 1rem;
+        grid-area: full3;
+        background-color: var(--div-color);
+      }
       
       
       
@@ -90,41 +104,44 @@
                                "main1 main2"
                                "main3 main4"
                                "full full"
+                               "full2 full2"
+                               "full3 full3"
                                "footer footer";
         }
         .header {
           margin: 1rem;
           padding: 1rem;
-          grid-area: header;
         }
         .footer { 
           margin: 1rem;
           padding: 1rem;
-          grid-area: footer;
         }
         .main1 {
           margin: 1rem;
           padding: 1rem;
-          grid-area: main1;
         }
         .main2 {
           margin: 1rem;
           padding: 1rem;
-          grid-area: main2;
         }
         .main3 {
           margin: 1rem;
           padding: 1rem;
-          grid-area: main3;
         }
         .main4 {
           margin: 1rem;
           padding: 1rem;
-          grid-area: main4;
         }
         .full {
           margin: 1rem;
           padding: 1rem;
-          grid-area: full;
+        }
+        .full2 {
+          margin: 1rem;
+          padding: 1rem;
+        }
+        .full3 {
+          margin: 1rem;
+          padding: 1rem;
         }
       }
