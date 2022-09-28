@@ -1,0 +1,48 @@
+@import "colors.css";
+
+.gallery {
+  padding: 5px 10px 15px;
+  margin-left: auto; 
+  margin-right: auto;
+  margin-bottom: 1rem;
+  width: 80%;
+  background-color: var(--bd-color);
+}
+
+.gal_desc {
+  font-weight: bold;
+  text-align: center;
+}
+
+.gal_img {
+  width:100%;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+
+@media (orientation: landscape) and (min-width: 800px), (min-width: 1000px) {
+  .gal_con {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-template-areas: "gallery gallery"
+                         "gallery gallery"
+                         "gallery gallery"
+                         "gallery gallery"
+                         "gallery gallery"
+                         "gallery gallery"
+                         "gallery gallery"
+                         "gallery gallery"
+                         "gallery gallery"
+                         "gallery gallery"
+                         "gallery gallery"
+                         "gallery gallery"
+                         "gallery gallery";
+  }
+  
+  .gallery {
+    width: 90%;
+  }
+}

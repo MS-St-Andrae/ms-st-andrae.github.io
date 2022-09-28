@@ -109,6 +109,10 @@
       width: 95%;
     }
     
+    #anmeldung_li {
+      font-size: 1.5rem;
+    }
+    
     
     @media (orientation: landscape) and (min-width: 800px), (min-width: 1000px) {
       #logo {
