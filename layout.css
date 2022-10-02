@@ -1,0 +1,137 @@
+      @import "colors.css";
+      @import "navbar.css";
+      @import "dropdown.css";
+      @import "gallery.css";
+      
+      body {
+        background-color: var(--bd-color); 
+        color: black;
+        font-family: Arial, sans-serif; 
+      }
+        
+      p {
+        text-align:justify;
+      }
+      
+      .container {
+        background-color: var(--ct-color);
+        width:100%;
+        margin-left:auto;
+        margin-right:auto;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-column-gap: 0px;
+        grid-template-areas: "header"
+                             "main1"
+                             "main2"
+                             "main3"
+                             "main4"
+                             "full"
+                             "full2"
+                             "full3"
+                             "footer";
+      }
+      
+      
+      .header {
+        grid-area: header;
+      }
+      .footer { 
+        padding: 1rem;
+        grid-area: footer;
+        background-color: var(--div-color);
+      }
+      .main1 {
+        padding: 1rem;
+        grid-area: main1;
+        background-color: var(--div-color);
+      }
+      .main2 {
+        padding: 1rem;
+        grid-area: main2;
+        background-color: var(--div-color);
+      }
+      .main3 {
+        padding: 1rem;
+        grid-area: main3;
+        background-color: var(--div-color);
+      }
+      .main4 {
+        padding: 1rem;
+        grid-area: main4;
+        background-color: var(--div-color);
+      }
+      .full {
+        padding: 1rem;
+        grid-area: full;
+        background-color: var(--div-color);
+      }
+      .full2 {
+        padding: 1rem;
+        grid-area: full2;
+        background-color: var(--div-color);
+      }
+      .full3 {
+        padding: 1rem;
+        grid-area: full3;
+        background-color: var(--div-color);
+      }
+      
+      
+      
+      @media (orientation: landscape) and (min-width: 800px), (min-width: 1000px) { 
+        .container {
+          max-width: 1400px; 
+          margin-left:auto;
+          margin-right:auto;
+          font-size: 1rem;
+          display: grid;
+          grid-template-columns: 50% 50%;
+          grid-template-rows: auto;
+          grid-column-gap: 0px;
+          grid-row-gap: 0px;
+          grid-template-areas: "header header"
+                               "main1 main2"
+                               "main3 main4"
+                               "full full"
+                               "full2 full2"
+                               "full3 full3"
+                               "footer footer";
+        }
+        .header {
+          padding: 1rem;
+        }
+        .footer { 
+          margin: 1rem;
+          padding: 1rem;
+        }
+        .main1 {
+          margin: 1rem;
+          padding: 1rem;
+        }
+        .main2 {
+          margin: 1rem;
+          padding: 1rem;
+        }
+        .main3 {
+          margin: 1rem;
+          padding: 1rem;
+        }
+        .main4 {
+          margin: 1rem;
+          padding: 1rem;
+        }
+        .full {
+          margin: 1rem;
+          padding: 1rem;
+        }
+        .full2 {
+          margin: 1rem;
+          padding: 1rem;
+        }
+        .full3 {
+          margin: 1rem;
+          padding: 1rem;
+        }
+      }
