@@ -6,7 +6,7 @@
       body {
         background-color: var(--bd-color); 
         color: black;
-        font-family: Arial, sans-serif; 
+        font-family: Arial, sans-serif;
       }
         
       p {
@@ -38,49 +38,41 @@
         grid-area: header;
       }
       .footer { 
-        margin: 0.2rem;
         padding: 1rem;
         grid-area: footer;
         background-color: var(--div-color);
       }
       .main1 {
-        margin: 0.2rem;
         padding: 1rem;
         grid-area: main1;
         background-color: var(--div-color);
       }
       .main2 {
-        margin: 0.2rem;
         padding: 1rem;
         grid-area: main2;
         background-color: var(--div-color);
       }
       .main3 {
-        margin: 0.2rem;
         padding: 1rem;
         grid-area: main3;
         background-color: var(--div-color);
       }
       .main4 {
-        margin: 0.2rem;
         padding: 1rem;
         grid-area: main4;
         background-color: var(--div-color);
       }
       .full {
-        margin: 0.2rem;
         padding: 1rem;
         grid-area: full;
         background-color: var(--div-color);
       }
       .full2 {
-        margin: 0.2rem;
         padding: 1rem;
         grid-area: full2;
         background-color: var(--div-color);
       }
       .full3 {
-        margin: 0.2rem;
         padding: 1rem;
         grid-area: full3;
         background-color: var(--div-color);
