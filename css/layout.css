@@ -14,8 +14,8 @@
       }
       
       .container {
-        background-color: var(--ct-color); 
-        max-width: 1400px; 
+        background-color: var(--ct-color);
+        width:100%;
         margin-left:auto;
         margin-right:auto;
         display: grid;
@@ -35,7 +35,6 @@
       
       
       .header {
-        margin: 0.2rem;
         grid-area: header;
       }
       .footer { 
@@ -109,7 +108,6 @@
                                "footer footer";
         }
         .header {
-          margin: 1rem;
           padding: 1rem;
         }
         .footer { 
