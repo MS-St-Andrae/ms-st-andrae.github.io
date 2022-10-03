@@ -25,9 +25,11 @@
       background-color: var(--bt-h-color);
     }
     
-    @media (min-width: 1000px) {
+    
+    
+    @media (orientation: landscape) and (min-width: 800px), (min-width: 1000px) {
       .navbar {
-        font-size: 1.4rem;
+        font-size: 1rem;
         display: grid;
         grid-template-rows: auto;
         grid-column-gap: 10px;
@@ -40,17 +42,14 @@
       }
     }
     
+    @media (min-width: 1000px) {
+      .navbar {
+        font-size: 1.4rem;
+      }
+    }
+    
     @media (min-width: 800px) and (max-width: 999px) and (orientation: landscape) {
       .navbar {
         font-size: 1rem;
-        display: grid;
-        grid-template-rows: auto;
-        grid-column-gap: 10px;
-        grid-row-gap: 10px;
-        grid-template-areas: "navbar_opt navbar_opt navbar_opt navbar_opt navbar_opt navbar_opt";
-      }
-      
-      .navbar_opt {
-        border: none;
       }
     }
