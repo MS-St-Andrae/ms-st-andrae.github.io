@@ -19,15 +19,6 @@
       z-index: 1;
     }
     
-    @media (orientation: landscape) and (min-width: 800px), (min-width: 1000px) {
-      .dropdown-content {
-        position: absolute;
-      }
-      .drop_opt {
-        border: none;
-      }
-    }
-    
     .dropdown-content a{
       display: block;
       padding: 10px 0px 10px;
@@ -43,4 +34,13 @@
     
     .drop_opt:hover {
       background-color: var(--bt-h-color);
+    }
+    
+    @media (orientation: landscape) and (min-width: 800px), (min-width: 1000px) {
+      .dropdown-content {
+        position: absolute;
+      }
+      .drop_opt {
+        border: none;
+      }
     }
