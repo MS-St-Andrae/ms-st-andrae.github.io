@@ -15,7 +15,7 @@
       margin-top: 10px;
       position: relative;
       background-color: var(--bt-color);
-      width: 98%;
+      width: 100%;
       z-index: 1;
     }
     
@@ -24,6 +24,13 @@
       padding: 10px 0px 10px;
     }
     
+	  .drop_main {
+      margin: 0;
+      color: var(--bt-f-color);
+      width: 100%;
+      height: 100%;
+    }
+      
 	  .drop_opt {
       margin: 0;
       color: var(--bt-f-color);
@@ -42,5 +49,6 @@
       }
       .drop_opt {
         border: none;
+        font-size: 1rem;
       }
     }

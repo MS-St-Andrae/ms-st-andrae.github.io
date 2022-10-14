@@ -1,0 +1,42 @@
+@import "colors.css";
+
+.full_page_nav {
+  padding: 5px 10px 15px;
+  margin-left: auto; 
+  margin-right: auto;
+  margin-bottom: 1rem;
+  margin-top: auto;
+  min-width: 20rem;
+  max-width: 70%;
+}
+
+.full_page_nav_name {
+  font-weight: bold;
+  text-align: center;
+}
+
+.full_page_nav_img {
+  width:100%;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.full_page_nav_con {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (orientation: landscape) and (min-width: 800px), (min-width: 1000px) {
+  .full_page_nav {
+    min-width: 15rem;
+    max-width: 30%;
+  }
+}
+
+@media (min-width: 1300px) {
+  .full_page_nav {
+    min-width: 15rem;
+    max-width: 20%;
+  }
+}

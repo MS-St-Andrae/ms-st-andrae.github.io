@@ -2,6 +2,7 @@
       @import "navbar.css";
       @import "dropdown.css";
       @import "gallery.css";
+      @import "full_page_nav.css";
       
       body {
         background-color: var(--bd-color); 
