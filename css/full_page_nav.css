@@ -8,6 +8,7 @@
   margin-top: auto;
   min-width: 20rem;
   max-width: 70%;
+  background-color: var(--alt-div-color);
 }
 
 .full_page_nav_name {
@@ -36,7 +37,7 @@
 
 @media (min-width: 1300px) {
   .full_page_nav {
-    min-width: 15rem;
-    max-width: 20%;
+    min-width: 20rem;
+    max-width: 30%;
   }
 }
