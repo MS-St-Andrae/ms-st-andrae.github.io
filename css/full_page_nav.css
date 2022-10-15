@@ -6,8 +6,9 @@
   margin-right: auto;
   margin-bottom: 1rem;
   margin-top: auto;
-  min-width: 20rem;
-  max-width: 70%;
+  min-width: 15rem;
+  width: 40%;
+  max-width: 50%;
   background-color: var(--alt-div-color);
 }
 
@@ -17,7 +18,8 @@
 }
 
 .full_page_nav_img {
-  width:100%;
+  width:70%;
+  margin: auto;
   display: block;
   margin-bottom: 0.5rem;
 }

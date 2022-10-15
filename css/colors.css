@@ -5,9 +5,15 @@
   --bt-color: #388E3C;
   --bt-h-color: #66BB6A;
   /*--div-color: #E8F5E9;*/
-  --div-color: #FFFFFF;
+  --div-color: #E8F5E9;
   --link-color: #2E7D32;
   --header-color: #1B5E20;
   --bt-f-color: #FFFFFF;
   --alt-div-color: #F5F5F5;
+  --blk-color: #000000;
+  --red600-color: #E53935;
+  --yellow600-color: #FDD835;
+  --lightblue600-color: #039BE5;
+  --green600-color: #43A047;
+  --grey600-color: #757575;
 }

@@ -36,7 +36,7 @@
       color: var(--bt-f-color);
       width: 100%;
       height: 100%;
-      border-bottom: 1px solid var(--bd-color);
+      border-bottom: 1px solid var(--bt-color);
     }
     
     .drop_opt:hover {
@@ -46,9 +46,17 @@
     @media (orientation: landscape) and (min-width: 800px), (min-width: 1000px) {
       .dropdown-content {
         position: absolute;
+        /*background-color: var(--ct-color);
+        color: var(--blk-color);*/
       }
       .drop_opt {
-        border: none;
-        font-size: 1rem;
+        /*color: var(--blk-color);
+        border: none;*/
+      }
+      .drop_main {
+        /*color: var(--blk-color);*/
+      }
+      .drop_opt:hover {
+        /*background-color: var(--bd-color);*/
       }
     }

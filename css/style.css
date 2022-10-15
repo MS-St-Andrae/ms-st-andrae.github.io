@@ -21,6 +21,14 @@
       color: var(--link-color);
     }
     
+    .headline_bg {
+      background-image: linear-gradient(to right, var(--red600-color), var(--yellow600-color), var(--green600-color), var(--lightblue600-color));
+      color: var(--ct-color);
+      padding-top: 1rem;
+      padding-bottom: 1.5rem;
+      width: 100%;
+    }
+    
     .center {
       margin: auto; 
       text-align: center;
