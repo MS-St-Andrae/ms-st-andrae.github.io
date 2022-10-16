@@ -7,18 +7,35 @@
     
     h1 {
       color: var(--link-color);
+      font-size: 20pt;
     }
     
     h2 {
       color: var(--link-color);
+      font-size: 18pt;
     }
     
     h3 {
       color: var(--link-color);
+      font-size: 16pt;
     }
     
     h4 {
       color: var(--link-color);
+      font-size: 14pt;
+    }
+    
+    img {
+      width: 100%;
+    }
+    
+    p {
+      text-align:justify;
+      font-size: 14pt;
+    }
+    
+    ul {
+      font-size: 14pt;
     }
     
     .headline_bg {
@@ -32,6 +49,32 @@
     .center {
       margin: auto; 
       text-align: center;
+    }
+    
+    .right  {
+      margin-left: auto; 
+      margin-right: 0; 
+      text-align: right;
+    }
+    
+    .img_box  {
+      min-width: 15rem;
+      width: 30%;
+      float: right;
+    }
+    
+    @media (max-width: 800px) {
+      .img_box  {
+        min-width: 15rem;
+        width: 80%;
+        display: block;
+        float: none;
+        margin: auto;
+      }
+    }
+    
+    .img_box_desc  {
+      background-color: var(--alt-div-color);
     }
     
     .teacher_name {
