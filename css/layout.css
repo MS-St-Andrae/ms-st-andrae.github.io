@@ -10,14 +10,6 @@
         font-family: Arial, sans-serif;
       }
         
-      p {
-        text-align:justify;
-        font-size: 14pt;
-      }
-      
-      ul {
-        font-size: 14pt;
-      }
       
       .container {
         background-color: var(--ct-color);

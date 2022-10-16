@@ -51,20 +51,20 @@
       text-align: center;
     }
     
-    .right  {
+    .right {
       margin-left: auto; 
       margin-right: 0; 
       text-align: right;
     }
     
-    .img_box  {
+    .img_box {
       min-width: 15rem;
       width: 30%;
       float: right;
     }
     
     @media (max-width: 800px) {
-      .img_box  {
+      .img_box {
         min-width: 15rem;
         width: 80%;
         display: block;
@@ -73,8 +73,13 @@
       }
     }
     
-    .img_box_desc  {
+    .img_box_desc {
       background-color: var(--alt-div-color);
+    }
+    
+    .medium_icon {
+      display: flex;
+      height: 4em;
     }
     
     .teacher_name {
