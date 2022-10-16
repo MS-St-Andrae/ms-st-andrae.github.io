@@ -49,6 +49,15 @@
     
 	  .contact-table {
       text-align: left;
+      font-size: 16pt;
+      border-spacing: 10px;
+    }
+    
+    .center_table {
+      text-align: left;
+      font-size: 16pt;
+      border-spacing: 10px;
+      margin: auto;
     }
     
     
