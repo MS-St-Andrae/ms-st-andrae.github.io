@@ -63,14 +63,28 @@
       text-align: right;
     }
     
-    .img_box {
+    .img_box_right {
       min-width: 15rem;
       width: 30%;
       float: right;
     }
     
+    .img_box_left {
+      min-width: 15rem;
+      width: 30%;
+      float: left;
+    }
+    
     @media (max-width: 800px) {
-      .img_box {
+      .img_box_right {
+        min-width: 15rem;
+        width: 80%;
+        display: block;
+        float: none;
+        margin: auto;
+      }
+      
+      .img_box_left {
         min-width: 15rem;
         width: 80%;
         display: block;
