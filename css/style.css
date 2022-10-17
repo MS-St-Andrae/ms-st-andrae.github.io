@@ -191,8 +191,8 @@
     }
     
     #logo {
-      min-width: 4rem;
-      max-width: 50%;
+      min-width: 10rem;
+      max-width: 40%;
       display: block; 
       margin-left:auto; 
       margin-right:auto;
@@ -230,7 +230,8 @@
     @media (orientation: landscape) and (min-width: 800px), (min-width: 1000px) {
       #logo {
         min-width: 10rem; 
-        max-width: 25%; 
+        width: 25%; 
+        max-width: 15rem; 
       }
       
       .logo_space {
