@@ -28,14 +28,14 @@
   justify-content: center;
 }
 
-@media (orientation: landscape) and (min-width: 800px), (min-width: 1000px) {
+@media (orientation: landscape) and (min-width: 800px) and (min-width: 50rem), (min-width: 1000px) and (min-width: 50rem) {
   .gallery {
     min-width: 20rem;
     max-width: 45%;
   }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1300px) and (min-width: 65rem){
   .gallery {
     min-width: 20rem;
     max-width: 30%;

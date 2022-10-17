@@ -47,7 +47,7 @@
       background-color: var(--bt-h-color);
     }
     
-    @media (orientation: landscape) and (min-width: 800px), (min-width: 1000px) {
+    @media (orientation: landscape) and (min-width: 800px) and (min-width: 50rem), (min-width: 1000px) and (min-width: 50rem) {
       .dropdown-content {
         position: absolute;
         /*background-color: var(--ct-color);

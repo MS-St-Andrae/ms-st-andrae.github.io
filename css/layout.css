@@ -13,7 +13,7 @@
       
       .container {
         background-color: var(--ct-color);
-        width:100%;
+        width: 100%;
         margin-left:auto;
         margin-right:auto;
         display: grid;
@@ -78,9 +78,9 @@
       
       
       
-      @media (orientation: landscape) and (min-width: 800px), (min-width: 1000px) { 
+      @media (orientation: landscape) and (min-width: 800px) and (min-width: 50rem), (min-width: 1000px) and (min-width: 50rem) { 
         .container {
-          max-width: 1400px; 
+          max-width: 90rem; 
           margin-left:auto;
           margin-right:auto;
           font-size: 1rem;
