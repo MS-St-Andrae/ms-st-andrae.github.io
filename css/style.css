@@ -39,8 +39,14 @@
     }
     
     .headline_bg {
-      background-image: linear-gradient(to right, var(--red600-color), var(--yellow600-color), var(--green600-color), var(--lightblue600-color));
+      background-image: url("../pictures/hexagon_bg.svg");
+      background-color: var(--ct-color);
+      background-repeat: no-repeat;
+      background-position: center bottom;
+      background-size: cover;
       color: var(--ct-color);
+      text-shadow: 0px 0px 5px var(--blk-color);
+      font-size: 24pt;
       padding-top: 1rem;
       padding-bottom: 1.5rem;
       width: 100%;
