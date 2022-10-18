@@ -133,3 +133,12 @@
           padding: 1rem;
         }
       }
+      
+      @media print {
+        .header {
+          display: none;
+        }
+        .footer {
+          display: none;
+        }
+      }
