@@ -104,10 +104,12 @@
     
     .teacher_name {
       text-align: center;
+      font-size: 1.4rem;
     }
     
-    .teacher_fach {
+    .teacher_subject {
       text-align: center;
+      font-size: 1.2rem;
     }
     
     .link_1 {
