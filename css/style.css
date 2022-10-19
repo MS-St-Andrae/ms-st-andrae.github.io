@@ -38,6 +38,16 @@
       font-size: 1.2rem;
     }
     
+    .bypass {
+      text-align: center;
+      font-size: 0.5rem;
+      padding: 0.1rem;
+    }
+    
+    .dropdown_link {
+      color: var(--ct-color);
+    }
+    
     .headline_bg {
       background-image: url("../pictures/hexagon_bg.svg");
       background-color: var(--ct-color);
@@ -231,7 +241,7 @@
       text-align: center; 
       margin-left: auto; 
       margin-right: auto;
-      width: 95%;
+      width: 90%;
     }
     
     #anmeldung_li {

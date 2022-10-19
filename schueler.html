@@ -26,11 +26,21 @@
   <div class="container">
     
       <div class="header">
-        <div class="logo_space"> 
-          <a href="index.html"><img alt="MS St. Andrä Logo" title="MS St. Andrä Startseite" src="logo/ms_sta_logo.svg" id="logo"></a>
-        </div>
-        <ul class="navbar">
-          <li class="navbar_opt dropdown">Unsere Schule &#9662;<a href=""></a>
+      <div class="logo_space"> 
+        <a href="index.html">
+          <img alt="MS St. Andrä Logo" title="MS St. Andrä Startseite" src="logo/ms_sta_logo.svg" id="logo"/>
+        </a>
+      </div>
+        <nav role="navigation" class="navigation">
+          <input name="toggle_nav" type="checkbox"/>
+          <label for="toggle_nav">
+            <div class="nav_icon_div">
+              <img alt="Navigation Icon" class="nav_icon" title="Navigation öffnen" src="logo/options.svg"/>
+            </div>
+            <span>Navigation</span>
+          </label>
+        <ul class="navbar" id="main_nav">
+          <li class="navbar_opt dropdown"><a class="dropdown_link" href="">Unsere Schule</a> &#9662;
             <div class="dropdown-content"> 
               <a href="schulprofil.html" class="drop_opt">Schulprofil</a>
               <a href="ueber_uns.html" class="drop_opt">Das Schulgebäude</a> 
@@ -43,7 +53,7 @@
           <a href="termine.html"><li class="navbar_opt">Termine</li></a> 
           <a href="erstsprachenunterricht.html"><li class="navbar_opt">Erstsprachenunterricht</li></a> 
           <a href="anmeldung.html"><li class="navbar_opt">Anmeldung</li></a> 
-          <li class="navbar_opt dropdown">Galerie &#9662;<a href=""></a>
+          <li class="navbar_opt dropdown"><a class="dropdown_link" href="">Galerie</a> &#9662;
             <div class="dropdown-content"> 
               <a href="galerie.html" class="drop_opt">Gebäude</a>
               <a href="galerie.html" class="drop_opt">Räume</a> 
@@ -51,6 +61,7 @@
             </div>
           </li>
         </ul>
+        </nav>
       </div>
 
     
