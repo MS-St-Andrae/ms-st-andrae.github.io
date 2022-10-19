@@ -208,7 +208,7 @@
     
     #logo {
       min-width: 10rem;
-      max-width: 40%;
+      width: 30%;
       display: block; 
       margin-left:auto; 
       margin-right:auto;
