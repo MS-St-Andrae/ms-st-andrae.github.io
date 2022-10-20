@@ -38,6 +38,7 @@
       font-size: 1.2rem;
     }
     
+    
     .bypass {
       clip: rect(0 0 0 0);
       clip-path: inset(100%);
@@ -134,7 +135,35 @@
 	  .contact-table {
       text-align: left;
       font-size: 1.4rem;
-      border-spacing: 10px;
+      border-spacing: 1rem;
+      max-width: 100%;
+    }
+    
+    @media (max-width: 30rem) {
+      .contact-table {
+        font-size: 1rem;
+        border-spacing: 0.5rem;
+      }
+      
+      p {
+        font-size: 1rem;
+      }
+      
+      h1 {
+        font-size: 1.6rem;
+      }
+      
+      h2 {
+        font-size: 1.4rem;
+      }
+      
+      h3 {
+        font-size: 1.2rem;
+      }
+      
+      h4 {
+        font-size: 1rem;
+      }
     }
     
     .center_table {
@@ -195,14 +224,14 @@
     
     .download {
       background-color: var(--bt-color);
+      display: block;
       border: none;
       color: white;
-      align: center;
+      text-align: center;
       padding: 0.5rem 1rem 0.5rem;
       cursor: pointer;
       display: inline-block;
-      margin: 1rem;
-      align: center;
+      margin: auto;
       font-size: 1.1rem;
     }
     
@@ -239,7 +268,7 @@
     }
     
 	  #imp {
-      background-color: var(--div-alt-color);
+      background-color: var(--bt-h-color);
       text-align: center; 
       margin-left: auto; 
       margin-right: auto;
