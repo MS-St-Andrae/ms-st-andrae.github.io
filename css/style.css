@@ -147,8 +147,6 @@
     
 	  .mapouter {
       margin-top: 2rem;
-      padding: 5px 5px 5px 5px;
-      background-color: var(--bt-h-color);
     }
     
     .video_frame {
@@ -167,9 +165,9 @@
     
     .map {
       width: 100%;
-      min-height: 500px;
-      margin-left:auto; 
-      margin-right:auto;
+      height: 500px;
+      margin-left: auto; 
+      margin-right: auto;
     }
     
     .header .imp {
@@ -241,7 +239,7 @@
     }
     
 	  #imp {
-      background-color: var(--bt-h-color);
+      background-color: var(--div-alt-color);
       text-align: center; 
       margin-left: auto; 
       margin-right: auto;
