@@ -132,6 +132,10 @@
       text-decoration: underline;
     }
     
+    .mw_30 {
+      max-width: 30rem;
+    }
+    
 	  .contact-table {
       text-align: left;
       font-size: 1.4rem;
